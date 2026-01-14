@@ -5,11 +5,11 @@ description = "A dummy MCP server that can be used to test the MCP protocol."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "mcp[cli]>=1.25.0",
+    "fastmcp>=0.9.0",
 ]
 
 [project.scripts]
-mcp-server = "myserver.main:main"
+mcp-server = "main:main"
 
 [build-system]
 requires = ["setuptools"]
