@@ -9,14 +9,14 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-server = "src.main:main"
+mcp-server = "main:main"
 
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-package-dir = {"" = "src"}
+package-dir = {"" = ""}
 
 [tool.setuptools.packages.find]
 where = ["src"]
